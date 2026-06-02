@@ -1,0 +1,82 @@
+/* Centrar todos los títulos */
+h1, h2, h3, h4 {
+    text-align: center;
+}
+h1 {
+    background-color: #6c757d;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+h2 {
+    background-color: #ced4da;
+    padding: 10px;
+    border-radius: 8px;
+}
+/* Mejora general de secciones */
+section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+/* Fondo verde pastel para Senderismo */
+.Senderismo {
+    background-color: #d8f3dc;
+}
+
+/* Títulos con un verde intenso */
+.Senderismo h3,
+.Senderismo h4 {
+    background-color: #95d5b2;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Fondo azul pastel para Robótica */
+.Robotica {
+    background-color: #dbeafe;
+}
+/* titulos con un azul intenso*/
+.Robotica h3,
+.Robotica h4 {
+    background-color: #93c5fd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Imagen + texto a la derecha en Robotica */
+.Imagen_parrafo {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.Imagen_parrafo h4 {
+    width: 100%;
+}
+
+/* Opcional: si quieres que el h4 quede encima */
+.Imagen_parrafo {
+    flex-wrap: wrap;
+}
+
+.Imagen_parrafo img {
+    border-radius: 10px;
+}
+
+.Imagen_parrafo p {
+    flex: 1;
+    margin: 0;
+}
+
+/* Pie de pagina */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+}

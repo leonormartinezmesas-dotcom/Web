@@ -1,0 +1,53 @@
+<!DOCTYPE html><!-- Indicamos al navegador que este documento esta escrito en HyperText Markup Language -->
+<html lang="es"><!--  Indicamos al navegador web que este documento esta escrito en Español -->
+<head><!--  La cavecera contiene parametros que afectan a toda la página-->
+    <meta charset="UTF-8"><!--  Tipo de codificación de caracteres usados. UTF-8 incluye la letra Ñ , letras acentuadas, simbolos mátematicos y emojis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- El metadato viewport se emplea para indicar cómo se ha de mostrar la página, con "width=device-width, initial-scale=1.0" indicamos que el ancho de la página a de ser igual al ancho de la pantalla del dispositivo -->
+    <title>Document</title><!-- El nombre que se mostrara en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilos.css">
+</head><!-- Cierre de la sección head -->
+<body><!-- Apertura de la sección body, El contenido de la página web -->
+    <h1>Titulo 1</h1><!--Titulo principal de la web, escribe aqui tu nombre-->
+    <section class= "Sobre_my"><!-- Usamos section para agrupar contenido mediante la palabra class, que nos permitira darle un aspecto distito a cada section cuando apliquemos CSS --> 
+      <h2>Titulo 2</h2><!-- Subtitulo -->
+         <div class=Imagen_parrafo>
+              <img src="imagenes/foto-perfil.png"alt="Tu nombre"> <!--Tu foto de perfil-->
+              <p>Parrafo</p>
+          </div>
+    </section><!-- cierre de la seción Sobre_my-->
+    <section class= "Mis_Hobis">
+          <h2>Titulo 2</h2>
+           <section class= "Senderismo">
+              <h3>Titulo 3</h3>
+              <p>Parrafo sobre senderismo</p>
+              <h4>Titulo 4</h4>
+              <p>Ruta numero 1</p>
+              <h4>Titulo 4</h4>
+              <p>Ruta numero 2</p>
+           </section>
+          <section class= "Robotica">
+              <h3>Titulo 3</h3>
+              <p>Parrafo</p>
+              <p>Parrafo sobre por que me gusta la Robotica</p>
+              <h4>Titulo 4</h4>
+              <div class=Imagen_parrafo>
+                 <img src="imagenes/MicroBit.png" alt="Yo"  width="300" height="200"><!--Una foto que ocupa 300pixeles de ancho y 200 de alto-->
+                 <p>Parrafor sobre el Proyecto 1</p>
+              </div>   
+              <h4>Titulo 4</h4>
+              <div class=Imagen_parrafo>
+                <video controls width="300" height="600"><!-- Ventana de video de 600 pixeles de ancho-->
+                    <source src="videos/Cuadrado.mp4" type="video/mp4"><!-- el video a mostrar, tipo mp4 -->
+                    Tu navegador no soporta vídeo HTML5.
+                </video><!--cierre sección ventana de video-->
+                <p>Parrafo sobre el Proyecto 2</p>
+              </div>
+          </section>
+    </section>
+
+    <footer> <!--Pie de pagína -->
+        <p>© 2026 - Mi Página Web</p>
+    </footer>
+
+</body>
+</html>
